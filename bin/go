@@ -5,4 +5,4 @@ docker run                              \
     --volume "${PWD}:/code"             \
     --workdir /code                     \
     --user "$(id --user):$(id --group)" \
-    golang:alpine go "${@}"
+    golang:${DOCKER_GO_VERSION}${DOCKER_GO_VERSION:+-}alpine go "${@}"
