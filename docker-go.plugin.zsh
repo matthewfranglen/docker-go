@@ -1,1 +1,1 @@
-export PATH="${PATH}:${0:Ah}/bin"
+export PATH="${PATH}:${0:A:h}/bin"
